@@ -1,0 +1,33 @@
+# Sensitīvi dati
+.env
+
+# Python cache faili
+__pycache__/
+*.py[cod]
+
+# Logi un izsekošanas faili
+*.log
+logs/
+*.lock
+
+# Datu mapes
+data/
+debug_data/
+*.csv
+*.json
+
+# Modeļu un treniņu dati
+models/
+*.h5
+*.pt
+*.pkl
+*.joblib
+
+# VSCode / IDE konfigurācijas
+.vscode/
+*.idea/
+
+# Pagaidu testi un citi
+*.bak
+*.tmp
+
